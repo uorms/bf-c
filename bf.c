@@ -125,6 +125,7 @@ int main(int argc, char* argv[]) {
                 fprintf(stderr, "inst_ptr: %d | ", inst_ptr);
                 for(int i = 0; i < 10; i++) fprintf(stderr, "%d ", data_array[i]);
                 fprintf(stderr, "\n");
+		break;
             default: break;
         }
         inst_ptr += 1;
